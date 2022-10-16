@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accueils",
+  "info": {
+    "singularName": "accueil",
+    "pluralName": "accueils",
+    "displayName": "accueil"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contenue": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

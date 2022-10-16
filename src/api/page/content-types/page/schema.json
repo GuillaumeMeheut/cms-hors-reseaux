@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contenue": {
+      "type": "richtext",
+      "required": true
+    },
+    "navigation": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
